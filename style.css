@@ -142,10 +142,8 @@ nav{
   }
 }
 @media screen and(max-width:1024px){
-  body{
-    display: none;
-  }
-/*  .presentation{
+  
+  .presentation{
     flex-direction: column;
   }
   .introduction{
@@ -173,5 +171,5 @@ nav{
   }
   .small-circle, .mid-circle, .big-circle{
     opacity: 0.2;
-  } */
+  }
 }
