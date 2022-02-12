@@ -141,8 +141,8 @@ nav{
     transform: translateY(0px);
   }
 }
-@media screen and(max-width:1024px){
-  
+@media (min-width:420px) and (max-width:1024px){
+
   .presentation{
     flex-direction: column;
   }
@@ -159,8 +159,11 @@ nav{
   .cta{
     padding: 10px 0px 0px 0px;
   }
+  .nav-link{
+    font-size:15px;
+  }
   .laptop-select{
-    bottom: 5%;
+    bottom:0.5%;
     right: 50%;
     width: 50%;
     transform: translate(50%, 5%);
@@ -168,6 +171,53 @@ nav{
   .cover{
       height: 80%;
       overflow: hidden;
+  }
+  .small-circle, .mid-circle, .big-circle{
+    opacity: 0.2;
+  }
+}
+@media (max-width:419px){
+  .presentation{
+    flex-direction: column;
+  }
+  .introduction{
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .intro-text h1{
+    font-size: 30px;
+  }
+  .intro-text p{
+    font-size: 15px;
+  }
+  .cta{
+    padding: 10px 0px 0px 0px;
+  }
+  .cta-select{
+    width: 140px;
+    height: 48px;
+
+  }
+  .cta-add{
+    width: 140px;
+    height: 48px;
+
+  }
+  .nav-link{
+    font-size:12px;
+  }
+  .laptop-select{
+    bottom:5%;
+    right: 50%;
+    width: 50%;
+    transform: translate(50%, 5%);
+  }
+  .cover{
+      height: 60%;
+      overflow: hidden;
+  }
+  .cover img{
+    height: 40vh;
   }
   .small-circle, .mid-circle, .big-circle{
     opacity: 0.2;
